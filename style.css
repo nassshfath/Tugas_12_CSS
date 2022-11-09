@@ -1,0 +1,52 @@
+ul {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(170, 225, 255);
+    box-shadow: 2px 2px 10px rgb(158, 158, 158);
+}
+
+.card {
+    padding: 20px;
+}
+
+.slider-img {
+    width: 100%;
+}
+
+.image {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.p-text {
+    column-count: 4;
+    column-rule: 2px solid black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
